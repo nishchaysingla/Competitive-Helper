@@ -1,0 +1,70 @@
+#competitiveHelper .options-container a:nth-child(3)::after{
+    transition: 2s all;
+    content: '';
+    border-bottom: blue 4px solid;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#competitiveHelper #codeforces{
+    background-color: #d8e7fd61!important;
+}
+
+#competitiveHelper .btn-primary{
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: none;
+    width: 65px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: calc(100% - 85px);
+    margin-bottom: 45px;
+}
+
+#competitiveHelper .btn-primary:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 216);
+}
+
+#competitiveHelper .loader{
+    height: 28px;
+    transform: scale(3.5);
+}
+
+#competitiveHelper #error{
+    margin-left: 25px;
+    margin-top: 10px;
+    color: red;
+}
+
+#competitiveHelper #tags{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#competitiveHelper .tagCheckbox{
+    display: none;
+}
+
+#competitiveHelper .tagLabel{
+    border: 1px solid grey;
+    padding: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 15px;
+    background: #e7e7e7;
+    padding-bottom: 7px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1px;
+}
+
+#competitiveHelper .tagLabel:hover{
+    background-color: lightgrey;
+}
+
+#competitiveHelper .tagLabel.selected{
+    background: #aaaaaa!important;
+}

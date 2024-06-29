@@ -1,0 +1,21 @@
+{
+    "name": "Competitive Helper",
+    "description": "Select a random problem from your favourite platform and ace!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "html/leetcode.html"
+    },
+    "icons":{
+        "128" : "logoblue.png"
+    },
+    "content_scripts": [
+    {
+        "matches": ["http://*/*","https://*/*"],
+        "css": ["./css/main.css"]
+    } ],
+    "background": {
+        "service_worker": "./js/background.js"
+    },
+    "permissions": ["notifications","alarms"]
+}
