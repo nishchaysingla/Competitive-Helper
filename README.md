@@ -22,3 +22,7 @@ The competitve helper chrome extension helps a user to quickly reach a question 
 
 **JavaScript:** Core language used for extension functionality.
 **HTML/CSS:** Structuring and styling the popup interface.
+## Preview
+![Logo](https://i.postimg.cc/MprhpZXb/Screenshot-2024-06-29-115352.png)
+![Logo](https://i.postimg.cc/q7hWhf3f/Screenshot-2024-06-29-115413.png)
+![Logo](https://i.postimg.cc/8C7gRJx0/Whats-App-Image-2024-06-29-at-11-54-42-07a699dd.jpg)
